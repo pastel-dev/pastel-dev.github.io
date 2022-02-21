@@ -35,9 +35,11 @@
     --line-height-small: 1.2;
 
     --black: #000;
-    --pink: #ff3258;
+    /*--pink: #ff3258;*/
+    --pink: #ff7f9a;
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
+    --black-gray: #323232;
 
 
     --container-max-width: 1180px;
@@ -404,8 +406,8 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .header {
-    background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/header.jpg');
+    background: linear-gradient(rgba(0,0,0, .4), rgba(0,0,0, .7)),
+        url('./images/roberto-nickson-bwIqQ5qQhXs-unsplash.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -490,6 +492,11 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__image-box {
     margin-bottom: var(--gutter-normal);
+    opacity: .7;
+}
+
+.image-caption {
+
 }
 
 @media(min-width: 901px) {
