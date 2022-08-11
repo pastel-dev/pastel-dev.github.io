@@ -496,6 +496,10 @@ body:not(.user-is-tabbing) a:focus {
     opacity: .7;
 }
 
+.work__image-box img {
+  width: 100%;
+}
+
 .image-caption {
 
 }
